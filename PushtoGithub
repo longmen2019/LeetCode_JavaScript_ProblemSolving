@@ -1,0 +1,14 @@
+# Initialize a new Git repository (if not already done)
+git init
+
+# Add a remote repository
+git remote add origin https://github.com/longmen2019/LeetCode_JavaScript_ProblemSolving.git
+
+# Stage all changes
+git add .
+
+# Commit the changes
+git commit -m "Update project"
+
+# Push to the remote repository
+git push -u origin main
